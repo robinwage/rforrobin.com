@@ -8,28 +8,31 @@
     
     <style>
         img {
-            width: 20vh;
+            width: 100%;
+            height: auto;
         }
-        
+
         #logo_wrapper {
             display: flex;
-            flex-direction: column; /* Stack the image and text vertically */
-            justify-content: center; /* Vertically center the content */
-            align-items: center; /* Horizontally center the content */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 20vh;
             height: 20vh;
             position: absolute;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
         }
-        
+
         p {
             font-family: Verdana, sans-serif;
             font-size: 5vh;
             margin: 0;
             text-align: center;
+            width: 100%;
         }
-        
+
         @media screen and (orientation: portrait) {
             width: 50vh;
         }
